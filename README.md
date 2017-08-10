@@ -19,8 +19,11 @@ Invokes a Function and returns logs.
 Result should look like:
 
 > START RequestId: 96a342bb-7d65-11e7-9587-855f366c09f5 Version: $LATEST
+
 > 2017-08-09 17:48:13.306 (-07:00)	96a342bb-7d65-11e7-9587-855f366c09f5	:-}
+
 > END RequestId: 96a342bb-7d65-11e7-9587-855f366c09f5
+
 > REPORT RequestId: 96a342bb-7d65-11e7-9587-855f366c09f5	Duration: 2.14 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used: 18 MB	
 
 ## Fetch the Function Logs
@@ -31,9 +34,13 @@ Open up a separate tab in your console and stream all logs for a specific Functi
 Results should look like:
 
 > 2017-08-09 17:48:13.304 (-07:00)	96a342bb-7d65-11e7-9587-855f366c09f5	Loading function
+
 > START RequestId: 96a342bb-7d65-11e7-9587-855f366c09f5 Version: $LATEST
+
 > 2017-08-09 17:48:13.306 (-07:00)	96a342bb-7d65-11e7-9587-855f366c09f5	:-}
+
 > END RequestId: 96a342bb-7d65-11e7-9587-855f366c09f5
+
 > REPORT RequestId: 96a342bb-7d65-11e7-9587-855f366c09f5	Duration: 2.14 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used: 18 MB	
 
 
