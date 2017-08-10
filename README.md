@@ -16,15 +16,9 @@ Invokes a Function and returns logs.
 
 > serverless invoke -f emojiGenerate -l
 
-Result should look like:
+Result should look something like:
 
-> START RequestId: .........6c09f5 Version: $LATEST
-
-> Date time	.........6c09f5	:-}
-
-> END RequestId: .........6c09f5
-
-> REPORT RequestId: .........6c09f5	Duration: 2.14 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used: 18 MB	
+> :-}
 
 ## Fetch the Function Logs
 Open up a separate tab in your console and stream all logs for a specific Function using this command.
@@ -33,16 +27,9 @@ Open up a separate tab in your console and stream all logs for a specific Functi
 
 Results should look like:
 
-> Date time	.........6c09f5	Loading function
+>	Loading function
 
-> START RequestId: .........6c09f5 Version: $LATEST
-
-> Date time	.........6c09f5	:-}
-
-> END RequestId: .........6c09f5
-
-> REPORT RequestId: .........6c09f5	Duration: 2.14 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used: 18 MB	
-
+> :-}
 
 
 ## Cleanup
