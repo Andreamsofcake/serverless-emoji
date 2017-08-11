@@ -2,8 +2,22 @@
 'use strict';
 console.log('Loading function');
 
-module.exports.emojiGenerate = (event, context, callback) => {
+module.exports.emojiGenerateHappy = (event, context, callback) => {
     var emojis= [':‑)',':-]',':-3',':->','8-)',':-}'];
+    let emoji = emojis[Math.floor(Math.random()*emojis.length)];
+    console.log(emoji);
+    const response = {
+      statusCode: 200,
+      body: JSON.stringify({
+        message: emoji,
+        input: event,
+      }),
+    };
+    callback(null, response);
+};
+
+module.exports.emojiGenerateSad = (event, context, callback) => {
+    var emojis= [':‑(',':-[',':-8',':-<','8-(',':-{'];
     let emoji = emojis[Math.floor(Math.random()*emojis.length)];
     console.log(emoji);
     const response = {

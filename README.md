@@ -9,12 +9,16 @@ Use this when you have made changes to your Functions, Events or Resources in se
 ## Deploy the Function
 Use this to quickly upload and overwrite your function code, allowing you to develop faster.
 
-> serverless deploy function -f emojiGenerate
+> serverless deploy function -f emojiGenerateHappy
+
+or
+
+> serverless deploy function -f emojiGenerateSad
 
 ## Invoke the Function
 Invokes a Function and returns logs.
 
-> serverless invoke -f emojiGenerate -l
+> serverless invoke -f emojiGenerateHappy -l
 
 Result should look something like:
 
