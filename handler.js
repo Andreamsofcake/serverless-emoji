@@ -1,5 +1,4 @@
 'use strict';
-'use strict';
 console.log('Loading function');
 
 module.exports.emojiGenerateHappy = (event, context, callback) => {
